@@ -1,0 +1,2 @@
+rootProject.name='CellAppsHW1'
+include ':app'
