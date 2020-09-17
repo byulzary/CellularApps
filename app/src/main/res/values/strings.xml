@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CellAppsHW1</string>
     <string name="special">Special</string>
+    <string name="title_activity_map_ton_ten">Map</string>
 </resources>

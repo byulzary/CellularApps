@@ -130,4 +130,16 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2:00"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/light_red_butt"
+        app:layout_constraintEnd_toEndOf="@+id/light_red_butt"
+        app:layout_constraintStart_toStartOf="@+id/light_red_butt"
+        app:layout_constraintTop_toBottomOf="@+id/light_blue_butt" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
