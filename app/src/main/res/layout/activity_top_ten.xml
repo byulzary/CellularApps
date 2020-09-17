@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".TopTen">
+
+    <EditText
+        android:id="@+id/top9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top"
+        app:layout_constraintStart_toStartOf="@+id/top"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/top8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top9"
+        app:layout_constraintStart_toStartOf="@+id/top9"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/top2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top1"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <EditText
+        android:id="@+id/top3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top2"
+        app:layout_constraintStart_toStartOf="@+id/top2"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/top4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top3"
+        app:layout_constraintStart_toStartOf="@+id/top3"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <EditText
+        android:id="@+id/top5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top4"
+        app:layout_constraintStart_toStartOf="@+id/top4"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <EditText
+        android:id="@+id/top6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top5"
+        app:layout_constraintStart_toStartOf="@+id/top5"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <EditText
+        android:id="@+id/top7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top6"
+        app:layout_constraintStart_toStartOf="@+id/top6"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:text="Top ten"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <EditText
+        android:id="@+id/top1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/top8"
+        app:layout_constraintStart_toStartOf="@+id/top8"
+        tools:layout_editor_absoluteY="224dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
